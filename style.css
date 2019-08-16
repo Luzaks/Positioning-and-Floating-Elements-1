@@ -1,1 +1,21 @@
+.nav {
+  float: left;
+}
+.bar {
+    position: relative;
+    padding: 0 10px;
+    width: 120px;
+    height: 42px;
+}
 
+.button1, .button2 {
+    display: inline-block;
+    margin: 10px;
+}
+.button2{
+    clear: left;
+}
+.fa {
+    width: 20px;
+    height: 20px;
+}
