@@ -1,10 +1,15 @@
+nav{
+    height: 42px;
+    border-bottom: 1px solid #e2e2e2;
+}
 .nav {
   float: left;
+  padding: auto;
 }
 .bar {
     position: relative;
     padding: 0 10px;
-    width: 120px;
+    width: 95px;
     height: 42px;
 }
 
@@ -12,10 +17,17 @@
     display: inline-block;
     margin: 10px;
 }
-.button2{
-    clear: left;
+button{
+    border: 0;
+}
+.section{
+    font-family: 'helvetica', sans-serif;
 }
 .fa {
-    width: 20px;
-    height: 20px;
+    font-size: 15px;
+    margin: 7px;
 }
+hr{
+    display: block;
+}
+
