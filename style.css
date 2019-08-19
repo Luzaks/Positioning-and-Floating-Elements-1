@@ -1,8 +1,15 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
 .navi{
+    margin: 0;
     width: 100%;
-    height: 43px;
-    border-bottom: 2px solid red;
+    height: 30px;
+    padding: 10px 0;
+    border-bottom: 1px solid red;
     text-align: center;
+    vertical-align: baseline;
 }
 .nav {
   float: left;
@@ -11,10 +18,10 @@
     position: relative;
     padding: 0 10px;
     width: 120px;
-    height: 42px;
 }
 
 .button1, .button2 {
+    bottom: 5px;
     display: inline-block;
     margin: 10px;
 }
@@ -22,21 +29,20 @@
     clear: left;
 }
 .fa {
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
 }
-/*.title{
-    margin-right: 50%;
-    margin-left: 50%;
-}*/
-.SVG{
+.title{
+    position:absolute;
+    width: 100%;
+}
+.SVG{ 
     display: inline-block;
     width: 185px;
     height: 25px;
-    margin-right: 50%;
-    margin-left: 50%;
+    margin-right: auto;
+    margin-left: auto;
 }
 .bar2{
-    display: block;
-    float: left;
+    float: right;
 }
