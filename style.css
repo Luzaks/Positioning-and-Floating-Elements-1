@@ -134,6 +134,7 @@ a:hover{
 #figure{
     width: 50%;
     height: auto;
+    margin: 0 10%;
 }
 
 .article-author{
@@ -169,7 +170,7 @@ a:hover{
 .lower-content-list{
     list-style: none;
     height: 30px;
-    width: 70%;
+    width: 10%;
     margin: 0;
     padding: 0 15% 0 15%;
 }
@@ -180,7 +181,7 @@ a:hover{
 }
 
 .ul-elements{
-    float: right;;
+    float: left;
     margin: 0 5px;
 }
 
@@ -201,4 +202,5 @@ a:hover{
 
 .inner-list{
     width: 300px;
+    margin-right: 50%;
 }
