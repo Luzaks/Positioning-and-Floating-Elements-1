@@ -115,7 +115,8 @@ a:hover{
 }
 
 .article-figure{
-    margin-top:5px;
+    margin:5px 0;
+    width: 100%
 }
 
 .article-figcaption{
@@ -134,7 +135,7 @@ a:hover{
 }
 
 .header-author{
-    text-align: center;
+    text-align: left;
 }
 
 
@@ -152,28 +153,43 @@ a:hover{
     color: #333;
 }
 
+.all-content{
+    width: 100%;
+}
+
 .lower-content-list{
     list-style: none;
+    height: 30px;
+    width: 70%;
+    margin: 0;
+    padding: 0 15% 0 15%;
 }
 
 .ul-elements-1{
     float:left;
+    margin-top: 8px;
 }
 
 .ul-elements{
     float:right;
+    margin: 0 5px;
 }
 
 .lower-content svg{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
-    /* text-anchor: center; */
-}
-
-.lower-content path{
+    background-color: #eee;
+    border: 1px #eee solid;
+    border-radius: 100%;
+    padding: 5px;
 }
 
 .fa-comment-alt{
-    font-size:24px;
+    font-size:20px;
+    margin-top: 7px;
+}
+
+.inner-list{
+    width: 300px;
 }
