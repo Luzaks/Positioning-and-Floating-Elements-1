@@ -216,7 +216,7 @@ a:hover{
 }
 
 .section-div{
-    width: 600px;
+    width: 100%;
     height: 580px;
     margin:50px auto;
     padding:0;
@@ -237,6 +237,7 @@ a:hover{
     text-align: center;
     font-weight: bolder;
     font-size: 17px;
+    float: left;
 }
 
 .section-div-1 a {
@@ -262,4 +263,18 @@ hr{
     width: 13%;
     margin:20px auto;
     border-width: thin;
+}
+.Editors-aside{
+    float: right;
+    width: 210px;
+    height: 951px;
+    margin-bottom: 80%;
+    margin-right: 15px;
+    margin-left: auto;
+    align-items: center;
+
+}
+.article-aside img{
+    width: 72px;
+    height: 72px;
 }
