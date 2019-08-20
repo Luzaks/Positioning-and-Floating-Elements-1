@@ -108,10 +108,15 @@ a:hover{
     height: 20%;
     margin:50px 40% 0 20%;
 }
+.div-img{
+    max-width: 100%; 
+    height: auto;
+    margin: 0 10%; 
+}
 
 #article-img{
-    min-width: 600px;
-    max-width: 1004px;
+    max-width: 100%; 
+    height: auto; 
 }
 
 .article-figure{
@@ -125,6 +130,10 @@ a:hover{
     font-size: 0.9375rem;
     line-height: 1.25rem;
     font-weight: bold;
+}
+#figure{
+    width: 50%;
+    height: auto;
 }
 
 .article-author{
