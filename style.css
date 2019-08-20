@@ -12,7 +12,6 @@ body, html {
     border-bottom: 1px solid #e2e2e2;
     text-align: center;
     background-color: #f7f7f7;
-
 }
 
 .nav {
@@ -151,7 +150,6 @@ a:hover{
 
 .upper-content{
     width: 200px;
-    margin-left: 15%;
     margin-top: 50px;
     font-weight: bolder;
     font-size: 1rem;
@@ -164,15 +162,16 @@ a:hover{
 }
 
 .all-content{
-    width: 1000px;
+    width: 600px;
+    margin: 0 auto;
 }
 
 .lower-content-list{
     list-style: none;
     height: 30px;
-    width: 806px;
+    width: 600px;
     margin: 0 auto;
-    padding: 0 0 0 105px;
+    padding: 0 0 0 0;
 }
 
 .ul-elements-1{
@@ -183,6 +182,10 @@ a:hover{
 .ul-elements{
     float: right;
     margin: 0 5px;
+}
+
+#inside-list{
+    width: 250px;
 }
 
 .lower-content svg{
@@ -203,24 +206,44 @@ a:hover{
 .inner-list{
     float:right;
     width: 250px;
-    margin-right: 120px;
     padding:0;
+}
+
+.container{
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.section-1{
+    width: 1170px;
+    height: 1575px;
+    margin:0 auto;
+}
+
+.section-2{
+    width: 1170px;
+    height: 720px;
+    margin:0 auto;
 }
 
 .section-ps{
     width: 600px;
     height: auto;
-    margin:15px 0;
+    margin:15px auto;
     font-size: 1.25rem;
     line-height: 1.875rem;
 }
 
 .section-div{
-    width: 100%;
-    height: 580px;
-    margin:50px auto;
+    width: 1000px;
+    height: 590px;
+    margin:10px auto 0 auto;
     padding:0;
     text-align: left;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 17px;
 }
 
 .section-div ul{
@@ -230,51 +253,91 @@ a:hover{
 }
 
 .section-div-1{
-    width: 600px;
-    height: 580px;
+    width: 210px;
+    height: 100px;
     margin:50px auto;
     padding:0;
-    text-align: center;
-    font-weight: bolder;
-    font-size: 17px;
-    float: left;
 }
 
 .section-div-1 a {
     color: rgb(50, 104, 145);
     text-decoration: none;
 }
-/*
-.square{
-    position: absolute;
-    width: 76px;
-    height: 76px;
-    border-style: solid;
-    border-top-width: 4px;
-    border-bottom-width: 4px;
-    border-right: 0;
-    border-left: 0;
-    border-color: #000;
-    left: 475px;
-    top: 5px;
-} */
+
+.section-div-2{
+    width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 17px;
+}
 
 hr{
     width: 13%;
     margin:20px auto;
     border-width: thin;
 }
-.Editors-aside{
-    float: right;
-    width: 210px;
-    height: 951px;
-    margin-bottom: 80%;
-    margin-right: 15px;
-    margin-left: auto;
-    align-items: center;
 
+.Editors-aside hr {
+    width: 100%;
+}
+.Editors-aside{
+    position: absolute;
+    display:inline-block;
+    width: 210px;
+    height: 600px;
+    top: 1900px;
+    left: 80%;
+    font-size: 12px;
+    line-height: 17px;
 }
 .article-aside img{
-    width: 72px;
-    height: 72px;
+    width: 75px;
+    height: 75px;
+    float:left;
+}
+
+.article-aside h2,
+h3{
+    text-align: left;
+    margin-left: 8px;
+    color: rgb(51, 51, 51);
+    font-weight:lighter;
+}
+
+.article-aside {
+    text-align: right;
+}
+
+.article-aside a{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.editor-imgs{
+    width: 75px;
+    margin-left: 0;
+    padding-bottom: 0;
+}
+
+.aside-2{
+    width: 210px;
+    height: 705px;
+    float:right;
+}
+
+.section-div-inner2{
+    float:left;
+}
+
+.section-div-3{
+    width: 600px;
+    height: 500px;
+    margin:0 auto;
+    padding:0;
+    text-align: left;
+    font-weight: bolder;
+    font-size: 17px;
 }
