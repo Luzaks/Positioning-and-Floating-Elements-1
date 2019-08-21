@@ -363,7 +363,7 @@ h3{
     max-width: 1255px;
     height: 757px;
 }
-iframe{
+.iframe-theory{
     position: absolute;
     border: 0;
     overflow: hidden;
@@ -412,4 +412,23 @@ iframe{
     width: 130px;
     height: 135px;
     margin:0 0 0 42.5px;
+}
+.section-6{
+    width: 1170px;
+    height: 555px;
+    margin: 0 auto;
+    padding:0 0 0 135px;
+}
+.section-6-1{
+    float:left;
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+.figure-div-2{
+    width: 600px;
+    height: 367px;
+}
+.iframe-video{
 }
