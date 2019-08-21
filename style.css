@@ -218,14 +218,16 @@ a:hover{
 
 .section-1{
     width: 1170px;
-    height: 1575px;
-    margin:0 auto;
+    height: 1555px;
+    margin: 0 auto;
+    padding:0 0 0 135px;
 }
 
 .section-2{
     width: 1170px;
-    height: 720px;
-    margin:0 auto;
+    height: 625px;
+    margin: 0 auto;
+    padding:0 0 0 135px;
 }
 
 .section-ps{
@@ -237,13 +239,19 @@ a:hover{
 }
 
 .section-div{
-    width: 1000px;
+    float:left;
+    width: 600px;
     height: 590px;
-    margin:10px auto 0 auto;
-    padding:0;
+    margin: 0 auto 0 150px;
     text-align: left;
+}
+
+.section-div-x{
+    float:left;
+    width: 1170px;
+    height: 935px;
+    margin: 0 auto 0 150px;
     text-align: left;
-    font-size: 17px;
 }
 
 .section-div ul{
@@ -253,10 +261,17 @@ a:hover{
 }
 
 .section-div-1{
-    width: 210px;
+    width: 200px;
     height: 100px;
     margin:50px auto;
     padding:0;
+}
+
+.section-div-1 ul{
+    list-style: none;
+    margin:0 auto;
+    padding: 0;
+    text-align:center;
 }
 
 .section-div-1 a {
@@ -265,6 +280,8 @@ a:hover{
 }
 
 .section-div-2{
+    display: inline-block;
+    float:left;
     width: 600px;
     margin: 0 auto;
     text-align: left;
@@ -281,12 +298,11 @@ hr{
     width: 100%;
 }
 .Editors-aside{
-    position: absolute;
-    display:inline-block;
-    width: 210px;
+    display: inline-block;
+    float:left;
+    width: 130px;
+    margin:0 0 0 42.5px;
     height: 600px;
-    top: 1900px;
-    left: 80%;
     font-size: 12px;
     line-height: 17px;
 }
@@ -305,7 +321,10 @@ h3{
 }
 
 .article-aside {
-    text-align: right;
+    float:right;
+    width: 130px;
+    height: 135px;
+    margin:0 0 0 42.5px;
 }
 
 .article-aside a{
@@ -322,9 +341,10 @@ h3{
 }
 
 .aside-2{
-    width: 210px;
-    height: 705px;
     float:right;
+    width: 130px;
+    height: 705px;
+    margin:0 0 0 42.5px;
 }
 
 .section-div-inner2{
@@ -332,10 +352,10 @@ h3{
 }
 
 .section-div-3{
-    width: 600px;
-    height: 500px;
-    margin:0 auto;
-    padding:0;
+    float:left;
+    width: 500px;
+    height: 555px;
+    margin: 0 auto 0 150px;
     text-align: left;
     font-size: 17px;
 }
@@ -352,11 +372,44 @@ iframe{
 }
 .section-4{
     width: 1170px;
-    height: 135px;
+    height: 155px;
     margin: 0 auto;
+    padding:0 0 0 135px;
 }
 .section-4-1{
+    float:left;
     width: 600px;
-    height: 600px;
+    height: 155px;
+    margin: 0 auto 0 150px;
+    text-align: left;
+}
+
+.aside-4{
+    float:right;
+    width: 130px;
+    height: 135px;
+    margin:0 0 0 42.5px;
+}
+
+.section-5{
+    width: 1170px;
+    height: 555px;
     margin: 0 auto;
+    padding:0 0 0 135px;
+}
+
+
+.section-5-1{
+    float:left;
+    width: 600px;
+    height: 555px;
+    margin: 0 auto 0 150px;
+    text-align: left;
+}
+
+.aside-5{
+    float:right;
+    width: 130px;
+    height: 135px;
+    margin:0 0 0 42.5px;
 }
