@@ -415,20 +415,76 @@ h3{
 }
 .section-6{
     width: 1170px;
-    height: 555px;
+    height: 400px;
     margin: 0 auto;
     padding:0 0 0 135px;
 }
 .section-6-1{
     float:left;
     width: 600px;
-    height: 500px;
-    margin: 0 auto;
+    height: 400px;
+    margin: 0 auto 0 150px;
     text-align: left;
+    line-height: 1;
 }
 .figure-div-2{
     width: 600px;
-    height: 367px;
+    height: 319px;
+    margin-bottom: 10px;
 }
 .iframe-video{
+    width: 600px;
+    height: 319px;
+    border: 0;
+    left: 15%;
+}
+.video-title{
+    margin-top: 5px; 
+    margin-right: 7px;
+    color: #666;
+    font-family: georgia,'times new roman',times,serif;
+    font-size: 1em;
+}
+.video-credits{
+    color: #888;
+    font-family: georgia,'times new roman',times,serif;
+    font-size: 0.8em;
+}
+.section-7{
+    width: 1170px;
+    height: 400px;
+    margin: 0 auto;
+    padding:0 0 0 135px;
+}
+.section7-1{
+    float:left;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 0 150px;
+    text-align: left;
+}
+.aside-7{
+    float: left;
+    width: 130px;
+    height: 400px;
+    margin:0 0 0 42.5px;
+}
+.section-8{
+    width: 1170px;
+    height: 1050px;
+    margin: 0 auto;
+    padding:0 0 0 135px;
+}
+.section-8-1{
+    float:left;
+    width: 600px;
+    height: 1050px;
+    margin: 0 auto 0 150px;
+    text-align: left;
+}
+.aside-8{
+    float: left;
+    width: 130px;
+    height: 1050px;
+    margin:0 0 0 42.5px;
 }
