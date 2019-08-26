@@ -853,3 +853,38 @@ input[type="checkbox"]{
     margin-bottom: 15px;
     color: #000;
 }
+.footer-pick-1{
+    width: 275px;
+    height: 285px;
+    padding-bottom: 15px;
+}
+.footer-figure-1{
+    margin: 0;
+}
+.footer-fig-1{
+    width: 275px;
+    height: 183px;
+}
+.footer-figcaption{
+    color: rgb(153, 153, 153);
+    font-size: 10px;
+    text-align: right;
+}
+.pick-header{
+    font-size: 1.125rem;
+    line-height: 22px;
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 9px;
+    color: rgb(18, 18, 18);
+    margin-top: 9px;
+  }
+.footer-figure-header:hover{
+   color: rgb(100, 100, 100);
+   text-decoration: none;
+}
+.Date{
+    color: rgb(153, 153, 153);
+    font-size: 12px;
+}
