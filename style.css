@@ -972,6 +972,7 @@ input[type="checkbox"]{
 
 .footer-nav-headlink{
     float: left;
+    margin-bottom: 8px;
 }
 
 .footer-nav-home{
