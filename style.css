@@ -836,7 +836,7 @@ input[type="checkbox"]{
 }
 
 .section-14-1{
-    width: 65%;
+    width: 822px;
     height: 660px;
     margin: 0;
     padding:0;
@@ -853,17 +853,26 @@ input[type="checkbox"]{
     margin-bottom: 15px;
     color: #000;
 }
+
+.footer-figs{
+    width: 852px;
+    height: 670px;
+
+}
+
 .footer-pick-1{
-    width: 275px;
+    width: 254px;
     height: 285px;
     padding-bottom: 15px;
+    float:left;
+    margin-right: 30px;
 }
 .footer-figure-1{
     margin: 0;
 }
 .footer-fig-1{
-    width: 275px;
-    height: 183px;
+    width: 254px;
+    height: 182px;
 }
 .footer-figcaption{
     color: rgb(153, 153, 153);
@@ -871,14 +880,14 @@ input[type="checkbox"]{
     text-align: right;
 }
 .pick-header{
-    font-size: 1.125rem;
-    line-height: 22px;
+    font-size: 1.0525rem;
+    line-height: 20px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-style: normal;
-    font-weight: 500;
-    margin-bottom: 9px;
+    font-weight: 600;
+    margin-bottom: 7px;
     color: rgb(18, 18, 18);
-    margin-top: 9px;
+    margin-top: 7px;
   }
 .footer-figure-header:hover{
    color: rgb(100, 100, 100);
