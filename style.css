@@ -950,6 +950,10 @@ input[type="checkbox"]{
 
 .footer-nav{
     height: 530px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: rgb(226, 226, 226);
+    margin-top: 30px;
 }
 
 .footer-nav-svg{
