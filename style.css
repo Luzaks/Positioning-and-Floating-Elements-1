@@ -830,9 +830,10 @@ input[type="checkbox"]{
 
 .section-14{
     width: 1170px;
-    height: 1603px;
+    height: 1080px;
     margin: 0 auto;
     padding:35px 0 0 35px;
+    border-bottom: 2px  rgb(226, 226, 226) solid;
 }
 
 .section-14-1{
@@ -842,6 +843,13 @@ input[type="checkbox"]{
     padding:0;
     border-top: 1px #000 solid;
     padding-top: 10px;
+}
+.subclass-3{
+    margin-top: 1px;
+    padding-top: 10px;
+    border-top: 1px  rgb(226, 226, 226) solid;
+    border-bottom: 0;
+    height: 550px;
 }
 
 .header-14{
@@ -899,7 +907,7 @@ input[type="checkbox"]{
 }
 .editorspick{
     width: 264px;
-    height: 830px;
+    height: 900px;
     float: right;
     border-top: 1px #000 solid;
     padding-top: 10px;
@@ -945,15 +953,12 @@ input[type="checkbox"]{
 }
 
 .subclass-2{
-    height: 370px;
+    height: 345px;
 }
 
 .footer-nav{
     height: 530px;
-    border-top-width: 2px;
-    border-top-style: solid;
-    border-top-color: rgb(226, 226, 226);
-    margin-top: 30px;
+    margin-top: 0;
 }
 
 .footer-nav-svg{
@@ -1008,7 +1013,7 @@ input[type="checkbox"]{
 .section-footer ul{
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 0 0 5px 0;
 }
 .section-footer a{
     color: rgb(0, 0, 0);
@@ -1030,4 +1035,39 @@ input[type="checkbox"]{
 .footer-svgs svg{
     width: 13px;
     height: 13px;
+    margin-right: 5px;
+}
+.footer-svgs a{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-transform: capitalize;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 25px;
+    line-height: 15px;
+    padding-bottom: 0px;
+}
+.second-ul{
+    padding-top: 50px;
+}
+.second-ul a{
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    font-family: nyt-franklin;
+    text-transform: capitalize;
+    width: 150px;
+    font-size: 12px;
+    font-weight: 500;
+    height: 23px;
+    line-height: 21px;
+    text-decoration: none;
+
+}
+.subscribe-hr{
+    width: 90%;
+}
+.section-footer {
+    border-left: 1px rgb(226, 226, 226) solid;
 }
