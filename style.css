@@ -111,7 +111,7 @@ a:hover{
 .div-img{
     max-width: 100%;
     height: auto;
-    margin: 0 10%;
+    margin: 0 0 0 31px;
 }
 
 #article-img{
@@ -134,7 +134,7 @@ a:hover{
 #figure{
     width: 50%;
     height: auto;
-    margin: 0 10%;
+    margin: 0 0 0 31px;
 }
 
 .article-author{
@@ -164,7 +164,7 @@ a:hover{
 
 .all-content{
     width: 600px;
-    margin: 0 307px;
+    margin: 0 0 0 150px;
 }
 
 .lower-content-list{
@@ -220,14 +220,14 @@ a:hover{
     width: 1170px;
     height: 1555px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 
 .section-2{
     width: 1170px;
     height: 625px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 
 .section-ps{
@@ -362,19 +362,20 @@ h3{
 .size-iframe{
     max-width: 1255px;
     height: 757px;
+
 }
 .iframe-theory{
     position: absolute;
     border: 0;
     overflow: hidden;
     width: 957px;
-    left: 15%;
+    left: 31px  ;
 }
 .section-4{
     width: 1170px;
     height: 155px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-4-1{
     float:left;
@@ -395,7 +396,7 @@ h3{
     width: 1170px;
     height: 555px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 
 
@@ -417,7 +418,7 @@ h3{
     width: 1170px;
     height: 400px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-6-1{
     float:left;
@@ -454,7 +455,7 @@ h3{
     width: 1170px;
     height: 400px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section7-1{
     float:left;
@@ -473,7 +474,7 @@ h3{
     width: 1170px;
     height: 1050px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-8-1{
     float:left;
@@ -493,7 +494,7 @@ h3{
     width: 1170px;
     height: 120px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-9-1{
     float:left;
@@ -513,7 +514,7 @@ h3{
     width: 1170px;
     height: 470px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .figure-3{
     float:left;
@@ -548,7 +549,7 @@ h3{
     width: 1170px;
     height: 685px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-11-1{
     float:left;
@@ -568,7 +569,7 @@ h3{
     width: 1170px;
     height: 965px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-12-1{
     float:left;
@@ -588,7 +589,7 @@ h3{
     width: 1170px;
     height: 495px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-13-1{
     float:left;
@@ -608,7 +609,7 @@ h3{
     width: 1170px;
     height: 100px;
     margin: 0 auto;
-    padding:0 0 0 135px;
+    padding:0;
 }
 .section-bottom-1{
     width: 600px;
@@ -699,7 +700,7 @@ h3{
 
 .section-sign-up{
     width: 1170px;
-    height: 180px;
+    height: 150px;
     margin: 0 auto;
     padding:35px 0 0 35px;
 }
@@ -715,10 +716,11 @@ h3{
 
 .sign-up-left{
     float: left;
-    width: 50%;
+    width: 45%;
     height: 120px;
     margin: 0;
-    padding:0;
+    padding: 0 5% 0 0;
+    line-height: 15px;
 }
 
 .sign-up-right{
@@ -732,12 +734,10 @@ h3{
     font-size: 10px;
     font-style: normal;
     font-weight: 400;
-    line-height: 15px;
 }
 
 .sign-up-left h2{
     font-size: 1.125rem;
-    line-height: 1.5rem;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -746,13 +746,13 @@ h3{
 }
 
 .sign-up-left p{
-color: rgb(102, 102, 102);
-font-family: nyt-franklin, helvetica, arial, sans-serif;
-font-size: 1rem;
-font-style: normal;
-font-weight: 500;
-line-height: 1.375rem;
-margin-left: 0px;
+    color: rgb(102, 102, 102);
+    font-family: nyt-franklin, helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.375rem;
+    margin-left: 0;
 }
 
 .sign-up-right ul{
@@ -768,18 +768,26 @@ margin-left: 0px;
 
 .bottom-list-2 a{
     color: rgb(50, 104, 145);
+    text-transform: uppercase;
+    font-size: 9px;
+    letter-spacing: -0.3px;
 }
 
 .bottom-input{
-    float: left;
-    width: 300px;
-    height: 40px;
+    float: right;
+    width: 363px;
+    height: 34px;
     border-radius: 4px;
     border: 1px;
     border-style: solid;
     border-color: rgb(226, 226, 226);
     z-index: 0;
     margin-bottom: 10px;
+    margin-right: 100px;
+    font-size: 13px;
+    line-height: 11px;
+    letter-spacing: -0.3px;
+    padding-left: 8px;
 }
 
 form{
@@ -789,9 +797,9 @@ form{
 
 .bottom-input-button{
     position: absolute;
-    left: 290px;
-    width: 103px;
-    height: 44px;
+    right: 0px;
+    width: 137px;
+    height: 38px;
     border:0;
     background-color: rgb(98, 136, 165);
     color: rgb(255, 255, 255);
@@ -801,6 +809,10 @@ form{
     margin: 0;
     padding: 0;
     z-index: 1;
+    font-size: 12px;
+    line-height: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
 
 .bottom-input-button:hover{
@@ -808,7 +820,7 @@ form{
 }
 
 .sign-up-radio{
-    clear: left;
+    clear: right;
     height: 30px;
     margin-top: 10px;
 }
@@ -826,6 +838,8 @@ input[type="checkbox"]{
 
 .span-text{
     font-size: 11px;
+    line-height: 11px;
+    letter-spacing: -0.5px;
 }
 
 .section-14{
