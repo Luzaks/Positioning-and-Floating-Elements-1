@@ -849,7 +849,7 @@ input[type="checkbox"]{
     padding-top: 10px;
     border-top: 1px  rgb(226, 226, 226) solid;
     border-bottom: 0;
-    height: 550px;
+    height: 535px;
 }
 
 .header-14{
@@ -975,10 +975,12 @@ input[type="checkbox"]{
     font-weight: 400;
     line-height: 11px;
     text-decoration: none;
+    float: right;
+    margin-top: 17px;
 }
 
 .section-footer{
-    width: 195px;
+    width: 193px;
     height: 324px;
     float: left;
 }
@@ -988,15 +990,19 @@ input[type="checkbox"]{
     margin-bottom: 8px;
 }
 
-.footer-nav-home{
-    float: right;
-    margin-top: 17px;
+#footer-nav-homelink{
+    color: rgb(98, 136, 165);
+}
+
+#footer-nav-homelink:hover{
+    text-decoration: none;
 }
 
 .section-nav-bar{
     clear: both;
     padding:0;
     height: 470px;
+    border-width: 1px;
 }
 
 .section-footer h3{
@@ -1066,8 +1072,38 @@ input[type="checkbox"]{
 
 }
 .subscribe-hr{
-    width: 90%;
+    width: 100%;
+    border: 1px rgb(226, 226, 226) solid;
+    margin: 10px 0;
 }
-.section-footer {
+
+.subclass-4{
     border-left: 1px rgb(226, 226, 226) solid;
+    padding-left: 10px;
+}
+
+.footer-end{
+    width: 1170px;
+    height: 55px;
+    margin: 0 auto;
+    padding:0 0 0 35px;
+}
+
+.nav-end ul{
+    height: 20px;
+    margin: 0;
+}
+
+.nav-end ul li{
+    float: left;
+    list-style: none;
+    padding: 0;
+    margin: 0 10px 0 0;
+    display: block;
+}
+
+.nav-end a{
+    color: rgb(153, 153, 153);
+    font-family: nyt-franklin, sans-serif;
+    font-size: 11px;
 }
