@@ -849,7 +849,7 @@ input[type="checkbox"]{
     padding-top: 10px;
     border-top: 1px  rgb(226, 226, 226) solid;
     border-bottom: 0;
-    height: 535px;
+    height: 450px;
 }
 
 .header-14{
@@ -957,7 +957,7 @@ input[type="checkbox"]{
 }
 
 .footer-nav{
-    height: 530px;
+    height: 435px;
     margin-top: 0;
 }
 
@@ -1001,7 +1001,7 @@ input[type="checkbox"]{
 .section-nav-bar{
     clear: both;
     padding:0;
-    height: 470px;
+    height: 385px;
     border-width: 1px;
 }
 
@@ -1084,7 +1084,7 @@ input[type="checkbox"]{
 
 .footer-end{
     width: 1170px;
-    height: 55px;
+    height: 45px;
     margin: 0 auto;
     padding:0 0 0 35px;
 }
