@@ -849,7 +849,7 @@ input[type="checkbox"]{
     padding-top: 10px;
     border-top: 1px  rgb(226, 226, 226) solid;
     border-bottom: 0;
-    height: 450px;
+    height: 425px;
 }
 
 .header-14{
@@ -957,7 +957,7 @@ input[type="checkbox"]{
 }
 
 .footer-nav{
-    height: 435px;
+    height: 420px;
     margin-top: 0;
 }
 
@@ -981,7 +981,7 @@ input[type="checkbox"]{
 
 .section-footer{
     width: 193px;
-    height: 324px;
+    height: 343px;
     float: left;
 }
 
@@ -1001,7 +1001,7 @@ input[type="checkbox"]{
 .section-nav-bar{
     clear: both;
     padding:0;
-    height: 385px;
+    height: 360px;
     border-width: 1px;
 }
 
@@ -1030,7 +1030,7 @@ input[type="checkbox"]{
     font-size: 14px;
     font-weight: 500;
     height: 23px;
-    line-height: 16px;
+    line-height: 20px;
     text-decoration: none;
 }
 
