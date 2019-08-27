@@ -830,7 +830,7 @@ input[type="checkbox"]{
 
 .section-14{
     width: 1170px;
-    height: 1003px;
+    height: 1603px;
     margin: 0 auto;
     padding:35px 0 0 35px;
 }
@@ -948,6 +948,10 @@ input[type="checkbox"]{
     height: 370px;
 }
 
+.footer-nav{
+    height: 530px;
+}
+
 .footer-nav-svg{
     width: 184px;
     height: 44px;
@@ -983,6 +987,7 @@ input[type="checkbox"]{
 .section-nav-bar{
     clear: both;
     padding:0;
+    height: 470px;
 }
 
 .section-footer h3{
