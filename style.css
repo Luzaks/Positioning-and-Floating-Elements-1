@@ -2,6 +2,7 @@ body, html {
     margin: 0;
     padding: 0;
     color: #333;
+    width: 1343px;
 }
 
 .navi {
@@ -104,9 +105,9 @@ a:hover{
 }
 
 .article-div{
-    width: 40%;
-    height: 20%;
-    margin:50px 40% 0 20%;
+    width: 600px;
+    height: 96px;
+    margin: 0 auto;
 }
 .div-img{
     max-width: 100%;
@@ -120,8 +121,8 @@ a:hover{
 }
 
 .article-figure{
-    margin:5px 0;
-    width: 100%
+    margin: 0 auto;
+    width: 945px;
 }
 
 .article-figcaption{
@@ -132,8 +133,8 @@ a:hover{
     font-weight: bold;
 }
 #figure{
-    width: 50%;
-    height: auto;
+    width: 720px;
+    height: 58px;
     margin: 0 0 0 31px;
 }
 
@@ -211,9 +212,9 @@ a:hover{
 }
 
 .container{
-    width: 100%;
+    width: 1057.5px;
     margin:0;
-    padding:0;
+    padding:0 0 0 112.5px;
 }
 
 .section-1{
@@ -248,7 +249,7 @@ a:hover{
 
 .section-div-x{
     float:left;
-    width: 1170px;
+    width: 930px;
     height: 935px;
     margin: 0 auto 0 150px;
     text-align: left;
@@ -299,9 +300,9 @@ hr{
 }
 .Editors-aside{
     display: inline-block;
-    float:left;
-    width: 130px;
-    margin:0 0 0 42.5px;
+    float: right;
+    width: 200px;
+    margin: 0;
     height: 600px;
     font-size: 12px;
     line-height: 17px;
@@ -309,7 +310,7 @@ hr{
 .article-aside img{
     width: 75px;
     height: 75px;
-    float:left;
+    float: left;
 }
 
 .article-aside h2,
@@ -322,9 +323,9 @@ h3{
 
 .article-aside {
     float:right;
-    width: 130px;
+    width: 200px;
     height: 135px;
-    margin:0 0 0 42.5px;
+    margin:0;
 }
 
 .article-aside a{
@@ -359,17 +360,23 @@ h3{
     text-align: left;
     font-size: 17px;
 }
+.theory-section{
+    width: 1170px;
+    height: 757px;
+    margin: 0;
+}
 .size-iframe{
-    max-width: 1255px;
+    margin: 50px auto;
+    width: 960px;
     height: 757px;
 
 }
 .iframe-theory{
-    position: absolute;
+    /*position: absolute;*/
     border: 0;
     overflow: hidden;
     width: 957px;
-    left: 31px  ;
+    /*left: 31px;*/
 }
 .section-4{
     width: 1170px;
@@ -608,7 +615,7 @@ h3{
 .section-bottom{
     width: 1170px;
     height: 100px;
-    margin: 0 auto;
+    margin: 0 0 23px 196.5px;
     padding:0;
 }
 .section-bottom-1{
@@ -706,7 +713,7 @@ h3{
 }
 
 .sign-up-1{
-    width: 947px;
+    width: 1170px;
     height: 120px;
     margin: 0;
     padding:0;
@@ -846,7 +853,7 @@ input[type="checkbox"]{
     width: 1170px;
     height: 1080px;
     margin: 0 auto;
-    padding:35px 0 0 35px;
+    padding: 35px 0 0 35px;
     border-bottom: 2px  rgb(226, 226, 226) solid;
 }
 
@@ -937,7 +944,7 @@ input[type="checkbox"]{
     color: #000;
 }
 .hrs{
-    border-bottom: 1px solid rgb(226, 226, 226);
+    border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
 }
 .uls{
