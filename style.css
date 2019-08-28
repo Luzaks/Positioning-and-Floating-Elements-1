@@ -109,6 +109,9 @@ a:hover{
     height: 96px;
     margin: 0 auto;
 }
+.figure{
+    width: 1;
+}
 .div-img{
     max-width: 100%;
     height: auto;
