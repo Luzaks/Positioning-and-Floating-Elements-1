@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
     margin: 0;
     padding: 0;
     color: #333;
@@ -18,7 +19,7 @@ body, html {
 }
 
 .nav {
-  float: left;
+    float: left;
 }
 
 .bar {
@@ -30,7 +31,7 @@ body, html {
 .button-1,
 .button-2 {
     display: inline-block;
-    border:0;
+    border: 0;
     padding: 5px;
     background-color: #f7f7f7;
     margin-right: 5px;
@@ -39,11 +40,11 @@ body, html {
 .fa {
     font-size: 17px;
     display: block;
-    margin:3px;
+    margin: 3px;
 }
 
 .title {
-    position:absolute;
+    position: absolute;
     width: 100%;
     z-index: 1;
 }
@@ -60,18 +61,18 @@ body, html {
     float: right;
 }
 
-.links{
+.links {
     position: relative;
     height: 40px;
-    margin:0;
-    border:0;
+    margin: 0;
+    border: 0;
     padding-top: 7px;
     z-index: 2;
     font-weight: bold;
     font-size: 14px;
 }
 
-.button-3{
+.button-3 {
     border-radius: 3px;
     color: #fff;
     font-size: 12px;
@@ -83,79 +84,81 @@ body, html {
     padding: 11px 12px 8px;
 }
 
-
 a:link,
 a:visited,
-a:active{
+a:active {
     color: #000000;
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
-.header-article{
+
+.header-article {
     text-align: left;
     font-style: italic;
 }
 
-.header-article p{
-    margin:0;
+.header-article p {
+    margin: 0;
     font-size: 35px;
     font-weight: bolder;
     color: #121212;
 }
 
-.article-div{
+.article-div {
     width: 600px;
     height: 96px;
     margin: 0 auto;
 }
-.figure{
+
+.figure {
     width: 1;
 }
-.div-img{
+
+.div-img {
     max-width: 100%;
     height: auto;
     margin: 0 0 0 31px;
 }
 
-#article-img{
+#article-img {
     max-width: 100%;
     height: auto;
 }
 
-.article-figure{
+.article-figure {
     margin: 0 auto;
     width: 945px;
 }
 
-.article-figcaption{
+.article-figcaption {
     margin-right: 7px;
     color: #666;
     font-size: 0.9375rem;
     line-height: 1.25rem;
     font-weight: bold;
 }
-#figure{
+
+#figure {
     width: 720px;
     height: 58px;
     margin: 0 0 0 31px;
 }
 
-.article-author{
+.article-author {
     margin-right: 7px;
     color: #888;
     font-size: 0.8rem;
     line-height: 1.25rem;
 }
 
-.header-author{
+.header-author {
     text-align: left;
 }
 
-
-.upper-content{
+.upper-content {
     width: 200px;
     margin-top: 50px;
     font-weight: bolder;
@@ -164,16 +167,16 @@ a:hover{
     color: #333;
 }
 
-.upper-content a{
+.upper-content a {
     color: #333;
 }
 
-.all-content{
+.all-content {
     width: 600px;
     margin: 0 0 0 150px;
 }
 
-.lower-content-list{
+.lower-content-list {
     list-style: none;
     height: 30px;
     width: 600px;
@@ -181,21 +184,21 @@ a:hover{
     padding: 0 0 0 0;
 }
 
-.ul-elements-1{
-    float:left;
+.ul-elements-1 {
+    float: left;
     margin-top: 8px;
 }
 
-.ul-elements{
+.ul-elements {
     float: right;
     margin: 0 5px;
 }
 
-#inside-list{
+#inside-list {
     width: 250px;
 }
 
-.lower-content svg{
+.lower-content svg {
     width: 20px;
     height: 20px;
     border-radius: 100%;
@@ -205,79 +208,79 @@ a:hover{
     padding: 5px;
 }
 
-.fa-comment-alt{
-    font-size:20px;
+.fa-comment-alt {
+    font-size: 20px;
     margin-top: 7px;
 }
 
-.inner-list{
-    float:right;
+.inner-list {
+    float: right;
     width: 250px;
-    padding:0;
+    padding: 0;
 }
 
-.container{
+.container {
     width: 1057.5px;
-    margin:0;
-    padding:0 0 0 200px;
+    margin: 0;
+    padding: 0 0 0 200px;
 }
 
-.section-1{
+.section-1 {
     width: 1170px;
     height: 1555px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
 
-.section-2{
+.section-2 {
     width: 1170px;
     height: 625px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
 
-.section-ps{
+.section-ps {
     width: 600px;
     height: auto;
-    margin:15px auto;
+    margin: 15px auto;
     font-size: 1.25rem;
     line-height: 1.875rem;
 }
 
-.section-div{
-    float:left;
+.section-div {
+    float: left;
     width: 600px;
     height: 590px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
 
-.section-div-x{
-    float:left;
+.section-div-x {
+    float: left;
     width: 930px;
     height: 935px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
 
-.section-div ul{
+.section-div ul {
     list-style: none;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
 }
 
-.section-div-1{
+.section-div-1 {
     width: 200px;
     height: 100px;
-    margin:50px auto;
-    padding:0;
+    margin: 50px auto;
+    padding: 0;
 }
 
-.section-div-1 ul{
+.section-div-1 ul {
     list-style: none;
-    margin:0 auto;
+    margin: 0 auto;
     padding: 0;
-    text-align:center;
+    text-align: center;
 }
 
 .section-div-1 a {
@@ -285,25 +288,26 @@ a:hover{
     text-decoration: none;
 }
 
-.section-div-2{
+.section-div-2 {
     display: inline-block;
-    float:left;
+    float: left;
     width: 600px;
     margin: 0 auto;
     text-align: left;
     font-size: 17px;
 }
 
-hr{
+hr {
     width: 13%;
-    margin:20px auto;
+    margin: 20px auto;
     border-width: thin;
 }
 
 .Editors-aside hr {
     width: 100%;
 }
-.Editors-aside{
+
+.Editors-aside {
     display: inline-block;
     float: right;
     width: 200px;
@@ -312,362 +316,388 @@ hr{
     font-size: 12px;
     line-height: 17px;
 }
-.article-aside img{
+
+.article-aside img {
     width: 75px;
     height: 75px;
     float: left;
 }
 
 .article-aside h2,
-h3{
+h3 {
     text-align: left;
     margin-left: 8px;
     color: rgb(51, 51, 51);
-    font-weight:lighter;
+    font-weight: lighter;
 }
 
 .article-aside {
-    float:right;
+    float: right;
     width: 200px;
     height: 100px;
-    margin:0;
+    margin: 0;
 }
 
-.article-aside a{
+.article-aside a {
     display: flex;
     height: 100%;
     flex-direction: row;
     margin-bottom: 10px;
 }
 
-.editor-imgs{
+.editor-imgs {
     width: 75px;
     margin-left: 0;
     padding-bottom: 0;
 }
 
-.aside-2{
-    float:right;
+.aside-2 {
+    float: right;
     width: 130px;
     height: 705px;
-    margin:0 0 0 42.5px;
+    margin: 0 0 0 42.5px;
 }
 
-.section-div-inner2{
-    float:left;
+.section-div-inner2 {
+    float: left;
 }
 
-.section-div-3{
-    float:left;
+.section-div-3 {
+    float: left;
     width: 600px;
     height: 595px;
     margin: 0 auto 0 150px;
     text-align: left;
     font-size: 17px;
 }
-.theory-section{
+
+.theory-section {
     width: 1170px;
     height: 757px;
     margin: 0;
 }
-.size-iframe{
+
+.size-iframe {
     margin: 0 auto 50px -22.5px;
     width: 960px;
     height: 757px;
-
 }
-.iframe-theory{
+
+.iframe-theory {
     /*position: absolute;*/
     border: 0;
     overflow: hidden;
     width: 957px;
     /*left: 31px;*/
 }
-.section-4{
+
+.section-4 {
     width: 1170px;
     height: 155px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.section-4-1{
-    float:left;
+
+.section-4-1 {
+    float: left;
     width: 600px;
     height: 155px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
 
-.aside-4{
-    float:right;
+.aside-4 {
+    float: right;
     width: 130px;
     height: 135px;
-    margin:0 0 0 42.5px;
+    margin: 0 0 0 42.5px;
 }
 
-.section-5{
+.section-5 {
     width: 1170px;
     height: 555px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
 
-
-.section-5-1{
-    float:left;
+.section-5-1 {
+    float: left;
     width: 600px;
     height: 555px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
 
-.section-5-1 a{
+.section-5-1 a {
     color: #326891;
 }
 
-.aside-5{
-    float:right;
+.aside-5 {
+    float: right;
     width: 130px;
     height: 135px;
-    margin:0 0 0 42.5px;
+    margin: 0 0 0 42.5px;
 }
-.section-6{
+
+.section-6 {
     width: 1170px;
     height: 400px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.section-6-1{
-    float:left;
+
+.section-6-1 {
+    float: left;
     width: 600px;
     height: 400px;
     margin: 0 auto 0 150px;
     text-align: left;
     line-height: 1;
 }
-.figure-div-2{
+
+.figure-div-2 {
     width: 600px;
     height: 319px;
     margin-bottom: 10px;
 }
-.iframe-video{
+
+.iframe-video {
     width: 600px;
     height: 319px;
     border: 0;
     left: 15%;
 }
-.video-title{
+
+.video-title {
     margin-top: 5px;
     margin-right: 7px;
     color: #666;
-    font-family: georgia,'times new roman',times,serif;
+    font-family: georgia, 'times new roman', times, serif;
     font-size: 1em;
 }
-.video-credits{
+
+.video-credits {
     color: #888;
-    font-family: georgia,'times new roman',times,serif;
+    font-family: georgia, 'times new roman', times, serif;
     font-size: 0.8em;
 }
-.section-7{
+
+.section-7 {
     width: 1170px;
     height: 400px;
     margin: 0 auto;
-    padding:0;
-}
-.section7-1{
-    float:left;
-    width: 600px;
-    height: 400px;
-    margin: 0 auto 0 150px;
-    text-align: left;
-}
-.aside-7{
-    float: left;
-    width: 130px;
-    height: 400px;
-    margin:0 0 0 42.5px;
-}
-.section-8{
-    width: 1170px;
-    height: 1050px;
-    margin: 0 auto;
-    padding:0;
-}
-.section-8-1{
-    float:left;
-    width: 600px;
-    height: 1050px;
-    margin: 0 auto 0 150px;
-    text-align: left;
-}
-.aside-8{
-    float: left;
-    width: 130px;
-    height: 1050px;
-    margin:0 0 0 42.5px;
+    padding: 0;
 }
 
-.section-9{
+.section7-1 {
+    float: left;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto 0 150px;
+    text-align: left;
+}
+
+.aside-7 {
+    float: left;
+    width: 130px;
+    height: 400px;
+    margin: 0 0 0 42.5px;
+}
+
+.section-8 {
+    width: 1170px;
+    height: 1050px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.section-8-1 {
+    float: left;
+    width: 600px;
+    height: 1050px;
+    margin: 0 auto 0 150px;
+    text-align: left;
+}
+
+.aside-8 {
+    float: left;
+    width: 130px;
+    height: 1050px;
+    margin: 0 0 0 42.5px;
+}
+
+.section-9 {
     width: 1170px;
     height: 120px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.section-9-1{
-    float:left;
+
+.section-9-1 {
+    float: left;
     width: 600px;
     height: 90px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
-.aside-9{
+
+.aside-9 {
     float: left;
     width: 130px;
     height: 90px;
-    margin:0 0 0 42.5px;
+    margin: 0 0 0 42.5px;
 }
 
-.section-10{
+.section-10 {
     width: 1170px;
     height: 470px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.figure-3{
-    float:left;
+
+.figure-3 {
+    float: left;
     width: 600px;
     height: 401px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
 
-.figure-3-img{
+.figure-3-img {
     width: 600px;
     height: 401px;
 }
 
-.description-3-1{
+.description-3-1 {
     font-size: 0.9375rem;
     line-height: 1.25rem;
     margin-right: 7px;
     color: #666;
-    font-family: georgia,'times new roman',times,serif;
+    font-family: georgia, 'times new roman', times, serif;
 }
 
-.description-3-2{
+.description-3-2 {
     font-size: 0.6875rem;
     line-height: 1rem;
     margin-right: 7px;
     color: #888;
-    font-family: georgia,'times new roman',times,serif;
+    font-family: georgia, 'times new roman', times, serif;
 }
 
-.section-11{
+.section-11 {
     width: 1170px;
     height: 685px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.section-11-1{
-    float:left;
+
+.section-11-1 {
+    float: left;
     width: 600px;
     height: 685px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
-.aside-11{
+
+.aside-11 {
     float: left;
     width: 130px;
     height: 685px;
-    margin:0 0 0 42.5px;
+    margin: 0 0 0 42.5px;
 }
 
-.section-12{
+.section-12 {
     width: 1170px;
     height: 965px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.section-12-1{
-    float:left;
+
+.section-12-1 {
+    float: left;
     width: 600px;
     height: 965px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
-.aside-12{
+
+.aside-12 {
     float: left;
     width: 130px;
     height: 965px;
-    margin:0 0 0 42.5px;
+    margin: 0 0 0 42.5px;
 }
 
-.section-13{
+.section-13 {
     width: 1170px;
     height: 495px;
     margin: 0 auto;
-    padding:0;
+    padding: 0;
 }
-.section-13-1{
-    float:left;
+
+.section-13-1 {
+    float: left;
     width: 600px;
     height: 495px;
     margin: 0 auto 0 150px;
     text-align: left;
 }
-.aside-13{
+
+.aside-13 {
     float: left;
     width: 130px;
     height: 495px;
-    margin:0 0 0 42.5px;
+    margin: 0 0 0 42.5px;
 }
 
-.section-bottom{
+.section-bottom {
     width: 1170px;
     height: 100px;
     margin: 0 0 23px 196.5px;
-    padding:0;
+    padding: 0;
 }
-.section-bottom-1{
+
+.section-bottom-1 {
     width: 600px;
     height: 50px;
     margin: 0 auto 0 150px;
     text-align: left;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     font-size: 0.6875rem;
     line-height: 1rem;
     color: #999;
 }
 
-.section-bottom-1 a{
+.section-bottom-1 a {
     text-align: left;
-    font-family: helvetica,arial,sans-serif;
+    font-family: helvetica, arial, sans-serif;
     font-size: 0.6875rem;
     line-height: 1rem;
     color: #999;
 }
 
-.section-bottom-2{
+.section-bottom-2 {
     width: 600px;
     height: 50px;
     margin: 0 auto 0 150px;
 }
 
-.section-bottom-2-1{
+.section-bottom-2-1 {
     width: 60%;
     height: 50px;
-    float:left;
+    float: left;
 }
 
-.section-bottom-2-2{
+.section-bottom-2-2 {
     width: 40%;
     height: 50px;
-    float:right;
+    float: right;
 }
 
-.bottom-button-1{
+.bottom-button-1 {
     width: 100%;
     height: 34px;
-    padding:5px 0;
+    padding: 5px 0;
     margin: 8px 0;
     background-color: rgb(98, 136, 165);
     color: white;
@@ -685,19 +715,21 @@ h3{
     transition: background-color 0.6s ease 0s;
 }
 
-.bottom-button-1:hover{
+.bottom-button-1:hover {
     background-color: rgb(50, 104, 145);
 }
 
-.section-bottom-2-2 ul{
+.section-bottom-2-2 ul {
     list-style: none;
 }
-.bottom-list{
+
+.bottom-list {
     float: right;
-    margin-top:-5px;
+    margin-top: -5px;
     margin-left: 15px;
 }
-.bottom-button-2{
+
+.bottom-button-2 {
     background-color: #eee;
     border: 1px #eee solid;
     border-radius: 100%;
@@ -705,7 +737,8 @@ h3{
     width: 27px;
     height: 27px;
 }
-.bottom-li-svg{
+
+.bottom-li-svg {
     background-color: #eee;
     border: 1px #eee solid;
     border-radius: 100%;
@@ -714,23 +747,23 @@ h3{
     height: 15px;
 }
 
-.section-sign-up{
+.section-sign-up {
     width: 1170px;
     height: 150px;
     margin: 0 auto;
-    padding:35px 0 0 35px;
+    padding: 35px 0 0 35px;
 }
 
-.sign-up-1{
+.sign-up-1 {
     width: 1170px;
     height: 120px;
     margin: 0;
-    padding:0;
+    padding: 0;
     border-top: 1px #000 solid;
     padding-top: 20px;
 }
 
-.sign-up-left{
+.sign-up-left {
     float: left;
     width: 45%;
     height: 120px;
@@ -739,12 +772,12 @@ h3{
     line-height: 15px;
 }
 
-.sign-up-right{
+.sign-up-right {
     float: left;
     width: 50%;
     height: 120px;
     margin: 0;
-    padding:0;
+    padding: 0;
     color: rgb(153, 153, 153);
     font-family: georgia, "times new roman", times, serif;
     font-size: 10px;
@@ -752,7 +785,7 @@ h3{
     font-weight: 400;
 }
 
-.sign-up-left h2{
+.sign-up-left h2 {
     font-size: 1.125rem;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-style: normal;
@@ -761,7 +794,7 @@ h3{
     color: #000;
 }
 
-.sign-up-left p{
+.sign-up-left p {
     color: rgb(102, 102, 102);
     font-family: nyt-franklin, helvetica, arial, sans-serif;
     font-size: 14px;
@@ -771,25 +804,25 @@ h3{
     margin-left: 0;
 }
 
-.sign-up-right ul{
+.sign-up-right ul {
     list-style: none;
     height: 20px;
     padding: 0;
 }
 
-.bottom-list-2{
+.bottom-list-2 {
     float: left;
     margin-right: 15px;
 }
 
-.bottom-list-2 a{
+.bottom-list-2 a {
     color: rgb(50, 104, 145);
     text-transform: uppercase;
     font-size: 9px;
     letter-spacing: -0.3px;
 }
 
-.bottom-input{
+.bottom-input {
     float: right;
     width: 363px;
     height: 34px;
@@ -806,17 +839,17 @@ h3{
     padding-left: 8px;
 }
 
-form{
+form {
     position: relative;
     height: 150px;
 }
 
-.bottom-input-button{
+.bottom-input-button {
     position: absolute;
     right: 0px;
     width: 137px;
     height: 38px;
-    border:0;
+    border: 0;
     background-color: rgb(98, 136, 165);
     color: rgb(255, 255, 255);
     border-radius: 4px;
@@ -831,58 +864,59 @@ form{
     text-transform: uppercase;
 }
 
-.bottom-input-button:hover{
+.bottom-input-button:hover {
     background-color: rgb(50, 104, 145);
 }
 
-.sign-up-radio{
+.sign-up-radio {
     clear: right;
     height: 30px;
     margin-top: 10px;
 }
 
-input[type="checkbox"]{
-    margin:1px 0 0 0;
+input[type="checkbox"] {
+    margin: 1px 0 0 0;
 }
 
-.span-checkbox{
+.span-checkbox {
     float: left;
     display: block;
     width: 18px;
     height: 30px;
 }
 
-.span-text{
+.span-text {
     font-size: 11px;
     line-height: 11px;
     letter-spacing: -0.5px;
 }
 
-.section-14{
+.section-14 {
     width: 1170px;
     height: 1080px;
     margin: 0 auto;
     padding: 35px 0 0 35px;
-    border-bottom: 2px  rgb(226, 226, 226) solid;
+    border-bottom: 2px rgb(226, 226, 226) solid;
 }
 
-.section-14-1{
+.section-14-1 {
     width: 876px;
     height: 660px;
     margin: 0;
-    padding:0;
+    padding: 0;
     border-top: 1px #000 solid;
     padding-top: 10px;
 }
-.subclass-3{
+
+.subclass-3 {
     margin-top: 1px;
     padding-top: 10px;
-    border-top: 1px  rgb(226, 226, 226) solid;
+    border-top: 1px rgb(226, 226, 226) solid;
     border-bottom: 0;
     height: 425px;
 }
 
-.header-14{
+.header-14 {
     font-size: 0.725rem;
     line-height: 1.5rem;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -892,32 +926,35 @@ input[type="checkbox"]{
     color: #000;
 }
 
-.footer-figs{
+.footer-figs {
     width: 906px;
     height: 670px;
-
 }
 
-.footer-pick-1{
+.footer-pick-1 {
     width: 272px;
     height: 292px;
     padding-bottom: 15px;
-    float:left;
+    float: left;
     margin-right: 30px;
 }
-.footer-figure-1{
+
+.footer-figure-1 {
     margin: 0;
 }
-.footer-fig-1{
+
+.footer-fig-1 {
     width: 272px;
     height: 182px;
 }
-.footer-figcaption{
+
+.footer-figcaption {
     color: rgb(153, 153, 153);
     font-size: 10px;
     text-align: right;
 }
-.pick-header{
+
+.pick-header {
     font-size: 1.0525rem;
     line-height: 20px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -926,23 +963,27 @@ input[type="checkbox"]{
     margin-bottom: 7px;
     color: rgb(18, 18, 18);
     margin-top: 7px;
-  }
-.footer-figure-header:hover{
-   color: rgb(100, 100, 100);
-   text-decoration: none;
 }
-.Date{
+
+.footer-figure-header:hover {
+    color: rgb(100, 100, 100);
+    text-decoration: none;
+}
+
+.Date {
     color: rgb(153, 153, 153);
     font-size: 12px;
 }
-.editorspick{
+
+.editorspick {
     width: 264px;
     height: 900px;
     float: right;
     border-top: 1px #000 solid;
     padding-top: 10px;
 }
-.editorsheader{
+
+.editorsheader {
     font-size: 1em;
     line-height: 1.5rem;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -952,17 +993,19 @@ input[type="checkbox"]{
     margin-bottom: 15px;
     color: #000;
 }
-.hrs{
+
+.hrs {
     border-top: 1px solid rgb(226, 226, 226);
     padding: 15px 0px;
 }
-.uls{
+
+.uls {
     list-style-type: none;
     text-align: left;
     padding: 0;
 }
 
-.hrs a{
+.hrs a {
     font-size: 1.0525rem;
     line-height: 20px;
     font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -973,31 +1016,30 @@ input[type="checkbox"]{
     margin-top: 7px;
 }
 
-.hrs a:hover{
+.hrs a:hover {
     color: rgb(100, 100, 100);
     text-decoration: none;
 }
 
-.subclass{
+.subclass {
     height: 300px;
 }
 
-.subclass-2{
+.subclass-2 {
     height: 345px;
 }
 
-.footer-nav{
+.footer-nav {
     height: 420px;
     margin-top: 0;
 }
 
-.footer-nav-svg{
+.footer-nav-svg {
     width: 184px;
     height: 44px;
-
 }
 
-.footer-nav-home{
+.footer-nav-home {
     color: rgb(98, 136, 165);
     font-family: nyt-franklin;
     font-size: 11px;
@@ -1009,33 +1051,33 @@ input[type="checkbox"]{
     margin-top: 17px;
 }
 
-.section-footer{
+.section-footer {
     width: 193px;
     height: 343px;
     float: left;
 }
 
-.footer-nav-headlink{
+.footer-nav-headlink {
     float: left;
     margin-bottom: 8px;
 }
 
-#footer-nav-homelink{
+#footer-nav-homelink {
     color: rgb(98, 136, 165);
 }
 
-#footer-nav-homelink:hover{
+#footer-nav-homelink:hover {
     text-decoration: none;
 }
 
-.section-nav-bar{
+.section-nav-bar {
     clear: both;
-    padding:0;
+    padding: 0;
     height: 360px;
     border-width: 1px;
 }
 
-.section-footer h3{
+.section-footer h3 {
     color: rgb(51, 51, 51);
     font-size: 13px;
     font-weight: 700;
@@ -1046,12 +1088,14 @@ input[type="checkbox"]{
     width: 150px;
     margin: 0px;
 }
-.section-footer ul{
+
+.section-footer ul {
     list-style: none;
     padding: 0;
     margin: 0 0 5px 0;
 }
-.section-footer a{
+
+.section-footer a {
     color: rgb(0, 0, 0);
     display: inline-block;
     font-family: nyt-franklin;
@@ -1064,16 +1108,17 @@ input[type="checkbox"]{
     text-decoration: none;
 }
 
-.section-footer a:hover{
+.section-footer a:hover {
     text-decoration: underline;
 }
 
-.footer-svgs svg{
+.footer-svgs svg {
     width: 13px;
     height: 13px;
     margin-right: 5px;
 }
-.footer-svgs a{
+
+.footer-svgs a {
     color: rgb(0, 0, 0);
     display: inline-block;
     font-family: nyt-franklin;
@@ -1085,10 +1130,12 @@ input[type="checkbox"]{
     line-height: 15px;
     padding-bottom: 0px;
 }
-.second-ul{
+
+.second-ul {
     padding-top: 50px;
 }
-.second-ul a{
+
+.second-ul a {
     color: rgb(0, 0, 0);
     display: inline-block;
     font-family: nyt-franklin;
@@ -1099,32 +1146,32 @@ input[type="checkbox"]{
     height: 23px;
     line-height: 21px;
     text-decoration: none;
-
 }
-.subscribe-hr{
+
+.subscribe-hr {
     width: 100%;
     border: 1px rgb(226, 226, 226) solid;
     margin: 10px 0;
 }
 
-.subclass-4{
+.subclass-4 {
     border-left: 1px rgb(226, 226, 226) solid;
     padding-left: 10px;
 }
 
-.footer-end{
+.footer-end {
     width: 1170px;
     height: 45px;
     margin: 0 auto;
-    padding:0 0 0 35px;
+    padding: 0 0 0 35px;
 }
 
-.nav-end ul{
+.nav-end ul {
     height: 20px;
     margin: 0;
 }
 
-.nav-end ul li{
+.nav-end ul li {
     float: left;
     list-style: none;
     padding: 0;
@@ -1132,7 +1179,7 @@ input[type="checkbox"]{
     display: block;
 }
 
-.nav-end a{
+.nav-end a {
     color: rgb(153, 153, 153);
     font-family: nyt-franklin, sans-serif;
     font-size: 11px;
