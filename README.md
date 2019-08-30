@@ -10,13 +10,15 @@ https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-but
 
 ### Description:
 
-We made a nav bar using \<nav\> tag, it's position is fixed and constains the name of the article's section "Space and Cosmos", a SVG for the name of the paper "The New York Times", and two buttons for subscribing and logging in.
+We made a nav bar using \<nav\> tag, its position is fixed and contains the name of the article's section "Space and Cosmos", a SVG for the name of the paper "The New York Times", and two buttons for subscribing and logging in.
 
 We create an article section using \<article\> tag that wraps a header \<h1\> tag, a \<figure\> tag, an \<img\> and a \<figcaption\> and etc to build up the first part.
 
-The rest of the page contains the author's writigns, videos, explanations, a theory hypothesis, we follow a simple order of hierarchy and used \<section\>, \<div\>, \<p\>, \<aside\>, \<iframe\>, and etc. elements positioned with mostly "float"ing.
+Main section contains the author's writings, videos, explanations, a theory hypothesis, we follow a simple order of hierarchy and used \<section\>, \<div\>, \<p\>, \<aside\>, \<iframe\>, and etc. elements positioned with mostly "float"ing.
 
+At the ending, there are recommended articles, writings and editor's pick section. We build up this section by using \<div\> and \<figure\> elements. Also used an \<aside\> element to create the most popular section.
 
+The last part of page is a footer. It includes informative/navigation links. We used \<div\> , \<footer\> , \<ul\> elements and put \<a\> elements into them.
 
 ### Our work:
 
