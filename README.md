@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Third Project Positioning-and-Floating-Elements-1
 
 ### Description of assignments for the project:
@@ -23,3 +24,6 @@ The last part of page is a footer. It includes informative/navigation links. We 
 ### Our work:
 
 ![Complete article](https://i.ibb.co/vjbkwfY/screencapture-file-C-Users-Sh-ADo-Desktop-Microverse-Positioning-and-Floating-Elements-1-index-html-2019-08-30-22-56-23.png "Our Replica")
+=======
+Positioning-and-Floating-Elements-1
+>>>>>>> 36951b8344845def7df8ba7b180b5283415a08a1
